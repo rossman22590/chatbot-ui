@@ -50,7 +50,7 @@ export const ChatHelp: FC<ChatHelpProps> = ({}) => {
 
             <Link
               className="cursor-pointer hover:opacity-50"
-              href="/help"
+              href="https://docs.myapps.ai/"
               target="_blank"
               rel="noopener noreferrer"
             >
