@@ -25,14 +25,14 @@ const GPT4Vision: LLM = {
 }
 
 // // GPT-4 (UPDATED 1/29/24)
-// const GPT4: LLM = {
-//   modelId: "gpt-4",
-//   modelName: "GPT-4",
-//   provider: "openai",
-//   hostedId: "gpt-4",
-//   platformLink: OPENAI_PLATORM_LINK,
-//   imageInput: false
-// }
+const GPT4: LLM = {
+  modelId: "gpt-4",
+  modelName: "GPT-4",
+  provider: "openai",
+  hostedId: "gpt-4",
+  platformLink: OPENAI_PLATORM_LINK,
+  imageInput: false
+}
 
 // GPT-3.5 Turbo (UPDATED 1/25/24)
 const GPT3_5Turbo: LLM = {
@@ -44,6 +44,6 @@ const GPT3_5Turbo: LLM = {
   imageInput: false
 }
 
-export const OPENAI_LLM_LIST: LLM[] = [GPT4Turbo, GPT4Vision, GPT3_5Turbo]
+export const OPENAI_LLM_LIST: LLM[] = [GPT4Turbo, GPT4, GPT4Vision, GPT3_5Turbo]
 
- // GPT4,
+ 
