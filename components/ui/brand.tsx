@@ -17,7 +17,7 @@ export const Brand: FC<BrandProps> = ({ theme = "dark" }) => {
       rel="noopener noreferrer"
     >
 
-      <div className="text-4xl font-bold tracking-wide">Chatbot UI</div>
+      <div className="text-4xl font-bold tracking-wide">AI Tutor Premium</div>
     </Link>
   )
 }
