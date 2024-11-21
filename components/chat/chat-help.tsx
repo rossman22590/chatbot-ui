@@ -48,7 +48,7 @@ export const ChatHelp: FC<ChatHelpProps> = ({}) => {
 
             <Link
               className="cursor-pointer hover:opacity-50"
-              href="https://docs.myapps.ai/"
+              href="https://support.myapps.ai/premium/workspace-instructions"
               target="_blank"
               rel="noopener noreferrer"
             >
